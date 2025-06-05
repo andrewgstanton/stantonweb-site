@@ -1,0 +1,90 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('../images/site-background.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+nav {
+  background: rgba(44, 62, 80, 0.9);
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.site-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 0.5em 0;
+  margin: 1.5em 0 1em;
+}
+
+.container {
+  max-width: 800px;
+  margin: 3em auto;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2em;
+  border-radius: 8px;
+}
+.contact-card {
+  position: relative;
+  text-align: center;
+  max-width: 100%;
+}
+.contact-card img {
+  width: 100%;
+  height: auto;
+}
+.contact-info {
+  position: absolute;
+  text-align: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #222;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1em;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: left;
+  color: #2c3e50;
+}
+.post {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+}
+.post h3 {
+  margin: 0;
+}
+.post p {
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3em;
+  font-size: 0.8em;
+  color: #555;
+  font-weight: bold;
+}
+
+nav a.active {
+  color: #f4a300;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
