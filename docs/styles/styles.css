@@ -26,6 +26,14 @@ nav a {
   padding: 0.5em 0;
   margin: 1.5em 0 1em;
 }
+.site-subtitle {
+  text-align: center;
+  font-size: 1.1em;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1em;
+  margin-top: -3.2em;
+}
 
 .container {
   max-width: 800px;
